@@ -1,0 +1,21 @@
+@import "variables";
+@import "generales";
+@import "header";
+@import "menu";
+@import "aside";
+@import "slider";
+@import "redes";
+@import "dispositivos moviles";
+@import "productos";
+
+//style//
+body {
+background-color: $background-color;
+background-image: url(/img/logo/fondo_vecors_gris-removebg-preview.png);
+background-repeat: no-repeat;
+background-size: 50%;
+background-position: center;
+}
+
+
+

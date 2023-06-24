@@ -1,0 +1,35 @@
+nav {
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        background-color: #5a5a5a;
+        }
+    ul {
+        list-style-type: none;
+        display: flex;
+        padding: 10px 20px;
+    
+        li {
+        a {
+            @include flex-center;
+            text-decoration: none;
+            margin-inline: 200px;
+            color: $link-color;
+    
+            &:hover {
+            transform: scale(1.2);
+            }
+    
+            &.sale--red {
+            color: $sale-color;
+            }
+        }
+        }
+    }
+    nav ul li a {
+        margin-inline: 10px;
+        margin-inline: 70px;
+    }
+    }

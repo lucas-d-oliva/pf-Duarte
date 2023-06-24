@@ -1,0 +1,36 @@
+.all-t-shirt {
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 100%;
+    gap: 2rem;
+    }
+    
+    div.producto-detalle {
+    background-color: $logo-background-color;
+    color: $text-color;
+    padding: 2rem;
+    border-radius: 2rem;
+    color: #000000;
+    }
+    
+    .tshirt {
+    width: 100%;
+    height: 400px;
+    }
+    
+    .all-t-shirt {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        h4 p {
+            color: black;
+        }
+        div.producto-detalle {
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+        
+        .tshirt {
+            height: 300px;
+        }
+    }
+    

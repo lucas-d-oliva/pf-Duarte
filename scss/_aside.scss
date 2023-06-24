@@ -1,0 +1,28 @@
+aside {
+    position: sticky;
+    h2 {
+        background-color: $background-color;
+        padding: 5px;
+        max-width: 200px;
+        margin: 50px;
+        
+        ol {
+            li { list-style: none;
+                a {
+                @include flex-center;
+                text-decoration: none;
+                margin-left: 60px;
+                color: $link-color;
+                padding: 5px;
+                max-width: 3px;
+                margin: 50px;
+                margin-left: 0px;
+                font-size: 45px;
+                color: $text-color;
+                text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+                
+                }
+            }
+        }
+}
+}
